@@ -7,41 +7,66 @@
     <title>Document</title>
     <link rel="stylesheet" href="../css/reset.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap" rel="stylesheet">
     <style>
+        body{
+            font-family: 'Black Han Sans', sans-serif;
+        }
         .btn_modi {
             display: none;
         }
 
         .inpWrap,
         .listView {
-            width: 300px;
+            width: 400px;
             margin: 0 auto;
         }
 
         .inpWrap {
-            background: skyblue;
+            background: rgb(255, 115, 0);
+            padding: 12px;
+            border-radius: 60px 30px;
         }
 
+
         .listView {
-            background: pink;
+            background: rgb(7, 199, 0);
+            border-radius: 60px 30px;
+            padding: 10px;
+
+
         }
-        .listView ul li{
+
+        .listView ul li {
+            background: #ffd104;
+            border-radius: 60px 30px;
             display: flex;
-            padding: 5px 0;
+            padding: 10px;
+
+
         }
-        .listView ul li .list{display: flex;align-items: center;padding-left: 10px;}
-        .listView ul li .icon{
+
+        .listView ul li .list {
+            display: flex;
+            align-items: center;
+            margin: 0 auto;
+        }
+
+        .listView ul li .icon {
             margin-left: auto;
-            background: #000;
+            background: #ff0000;
             padding: 5px 10px;
-            border-radius: 5px;
-            font-size: 12px;
+            border-radius: 100%;
+            font-size: 22px;
             display: flex;
-            gap:10px;
+            gap: 10px;
+
         }
         .listView ul li .icon a{color:white}
 
-        .item.done{background: blue;}
+        .item.done{background: rgb(130, 4, 165);}
     </style>
 </head>
 
